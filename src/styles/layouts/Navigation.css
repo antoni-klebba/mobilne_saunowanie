@@ -1,0 +1,267 @@
+:root {
+  --main-gradient-background1: radial-gradient(
+    circle,
+    rgba(255, 201, 80, 1) 0%,
+    rgba(255, 222, 149, 1) 100%
+  );
+  --main-gradient-background2: #fff;
+  --text-shift-color1: linear-gradient(to right, #fff, #fff 50%, #222 50%);
+  --text-shift-color2: linear-gradient(
+    to right,
+    rgb(68, 218, 255),
+    rgb(68, 218, 255) 50%,
+    #222 50%
+  );
+}
+
+nav.nav {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+}
+
+/* SMALL NAVIGATION */
+
+/* nav bar */
+nav .small_nav {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+  background: var(--main-gradient-background1);
+  background-color: #fff;
+  color: #222;
+}
+
+/* Logo */
+nav .nav_logo img {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 5px auto;
+  width: 95px;
+  height: 80px;
+}
+
+/* nav menu */
+nav .menu {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  background: var(--main-gradient-background1);
+  opacity: 0.95;
+  color: #222;
+  transition: 0.3s ease;
+  z-index: 2;
+}
+
+nav .menu.true {
+  height: 17.5rem;
+}
+
+nav .menu.false {
+  height: 0vh;
+}
+
+nav .menu_list {
+  padding-top: 5.5rem;
+  width: 100%;
+}
+
+.small_width {
+  display: inherit;
+}
+
+/* Media Query */
+@media (max-width: 599px) {
+  nav.nav {
+    height: 90px;
+  }
+}
+
+/* nav menu item */
+nav .menu_item {
+  font-size: 1.2rem;
+  margin: 0 5%;
+}
+
+nav .menu_item a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 0.7rem 0;
+  background: linear-gradient(to right, rgb(255, 255, 255), #fff 50%, #222 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 350ms ease;
+}
+
+nav .menu_item:hover a {
+  background-position: 0 100%;
+}
+
+nav .menu_item_line {
+  height: 1px;
+  background-color: rgb(90, 90, 90);
+}
+
+/* nav menu button */
+nav .menu_button {
+  height: 32px;
+  width: 32px;
+  padding-left: 5px;
+}
+
+nav .line {
+  height: 2px;
+  width: 20px;
+}
+
+nav .line_top {
+  margin-bottom: 5px;
+}
+
+nav .line_bottom {
+  margin-top: 5px;
+}
+
+/* nav animations */
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-2%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes shrink {
+  0% {
+    width: 95%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+/* MEDIUM NAVIGATION */
+
+/* nav bar */
+.med_nav_bar {
+  width: 100%;
+  height: 100px;
+  background: var(--main-gradient-background1);
+  display: flex;
+  justify-content: center;
+}
+
+.med_nav_container {
+  height: 100%;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.med_logo img {
+  height: 95px;
+  width: 95px;
+}
+
+/* navigation */
+.med_nav {
+  display: flex;
+}
+
+.med_nav a {
+  position: relative;
+  display: block;
+  padding: 30px 8px;
+  overflow: hidden;
+  font-size: 16px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, rgb(255, 255, 255), #fff 50%, #222 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 350ms ease;
+}
+
+.med_nav a:hover {
+  background-position: 0 100%;
+}
+
+/* LARGE NAVIGATION */
+
+.lar_nav_bar {
+  width: 100%;
+  height: 110px;
+  background: var(--main-gradient-background1);
+  display: flex;
+  justify-content: center;
+}
+
+.lar_nav_container {
+  height: 100%;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.lar_logo img {
+  height: 105px;
+  width: 120px;
+}
+
+/* navigation */
+@media (min-width: 1224px) {
+  nav.nav {
+    margin-top: 50px;
+  }
+}
+
+.lar_nav {
+  display: flex;
+}
+
+.lar_nav a {
+  position: relative;
+  display: block;
+  padding: 40px 12px;
+  overflow: hidden;
+  font-size: 18px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #fff, #fff 50%, #222 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 350ms ease;
+}
+
+.lar_nav a:hover {
+  background-position: 0 100%;
+}

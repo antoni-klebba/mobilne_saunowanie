@@ -1,0 +1,90 @@
+.offer {
+  width: 100%;
+  background-color: #fff;
+}
+
+.offer .container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.offer .background_sheet {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(circle, rgba(255, 201, 80, 1) 0%, rgba(255, 222, 149, 1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer .text_container {
+  width: 80%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.offer .text_container h3 {
+  margin: 20px 0 10px 0;
+  width: 100%;
+}
+
+.offer .text_container h4 {
+  margin: 20px 0 10px 0;
+  width: 100%;
+}
+
+.offer .text_container h5 {
+  margin-top: 5px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.offer .text_container p {
+  width: 100%;
+  margin: 2px 0;
+  line-height: 1.4;
+  font-family: "Lato", sans-serif;
+}
+
+.offer .text_container p:nth-last-child(2) {
+  margin: 20px 0 15px 0;
+}
+
+.offer .text_container .offer_phone_number {
+  font-size: 20px;
+  margin-bottom: 27px;
+}
+
+.offer .text_container .offer_phone_number a {
+  padding: 10px 7px;
+  background: linear-gradient(to right, rgb(255, 255, 255), #fff 50%, #222 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 350ms ease;
+}
+
+.offer .text_container .offer_phone_number a:hover {
+  background-position: 0 100%;
+}
+
+@media (min-width: 1224px) {
+  .offer .text_container {
+    font-size: 18px;
+  }
+
+  .offer .text_container h5 {
+    font-size: 16px;
+  }
+
+  .offer .text_container .offer_phone_number {
+    font-size: 23px;
+  }
+}

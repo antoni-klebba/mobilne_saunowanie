@@ -1,0 +1,137 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+  border-top: 1px solid gray;
+}
+
+.footer .container {
+  width: 90%;
+}
+
+.top_footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #494949;
+}
+
+.top_footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.top_footer .footer_phone_number {
+  background: radial-gradient(circle, rgba(255, 201, 80, 1) 0%, rgba(255, 222, 149, 1) 100%);
+  border: 1px solid #292929;
+  padding: 10px 0;
+}
+
+.top_footer a {
+  padding: 10px 15px;
+  background: linear-gradient(to right, #fff, #fff 50%, #222 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 350ms ease;
+}
+
+.top_footer a:hover {
+  background-position: 0 100%;
+}
+
+.middle_footer {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background-color: #353535;
+  border-top: 1px solid #555;
+}
+
+.middle_footer .adress {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+}
+
+.middle_footer .adress a {
+  background: linear-gradient(to right, rgb(255, 255, 255), #fff 50%, #888 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 350ms ease;
+}
+
+.middle_footer .adress a:hover {
+  background-position: 0 100%;
+}
+
+.bottom_footer {
+  display: flex;
+  justify-content: center;
+  background-color: #292929;
+  border-top: 1px solid #555;
+}
+
+.bottom_footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 30px;
+  width: 90%;
+  padding-bottom: 3px;
+}
+
+.bottom_footer p {
+  color: #888;
+  font-size: 14px;
+}
+
+.bottom_footer a {
+  color: #888;
+}
+
+@media (max-width: 599px) {
+  .footer .container {
+    max-width: 500px;
+  }
+
+  .bottom_footer p {
+    font-size: 12px;
+  }
+
+  .middle_footer .adress {
+    font-size: 16px;
+    bottom: 17px;
+    width: 182px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1223px) {
+  .footer .container {
+    max-width: 900px;
+  }
+
+  .top_footer a {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1224px) {
+  .footer .container {
+    max-width: 1450px;
+  }
+
+  .top_footer a {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,73 @@
+.top_contact_bar {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  font-family: "Lato", sans-serif;
+  z-index: 99;
+  opacity: 0.75;
+}
+
+.top_contact_bar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.top_contact_bar .phone_number {
+  display: flex;
+  align-items: center;
+}
+
+.top_contact_bar a {
+  color: white;
+  transition: 0.35s ease;
+}
+
+.top_contact_bar a:hover {
+  color: rgb(101, 223, 253);
+}
+
+.top_contact_bar .phone_icon,
+.top_contact_bar .fb_icon,
+.top_contact_bar .map_icon {
+  margin-right: 15px;
+  font-size: 28px;
+}
+
+@media (max-width: 599px) {
+  .top_contact_bar .container {
+    width: 400px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1223px) {
+  .top_contact_bar .container {
+    width: 500px;
+  }
+  .top_contact_bar .phone_icon,
+  .top_contact_bar .fb_icon,
+  .top_contact_bar .map_icon {
+    margin-right: 17px;
+  }
+}
+
+@media (min-width: 1224px) {
+  .top_contact_bar {
+    height: 50px;
+  }
+
+  .top_contact_bar .container {
+    width: 900px;
+  }
+
+  .top_contact_bar .phone_icon,
+  .top_contact_bar .fb_icon,
+  .top_contact_bar .map_icon {
+    font-size: 34px;
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Slab", serif;
+}
+
+.link_reset {
+  text-decoration: none;
+  color: #222;
+}
+
+.link_reset:active {
+  outline: none;
+}
+
+.link_reset:focus {
+  outline: none;
+}
+
+.about,
+.offer,
+.gallery {
+  margin: 0 auto;
+}
+
+.separating_line {
+  width: 70%;
+  height: 3px;
+  margin: 30px auto;
+  border: 1px solid transparent;
+  border-radius: 30%;
+  background: radial-gradient(circle, rgba(255, 201, 80, 1) 0%, rgba(255, 222, 149, 1) 100%);
+}
+
+@media (max-width: 599px) {
+  .about,
+  .offer,
+  .gallery {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1223px) {
+  .about,
+  .offer,
+  .gallery {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1224px) {
+  .about,
+  .offer,
+  .gallery {
+    max-width: 1600px;
+  }
+}

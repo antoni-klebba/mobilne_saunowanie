@@ -1,0 +1,40 @@
+.terms_of_use_page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.terms_of_use_page .container {
+  width: 80%;
+  max-width: 1200px;
+  margin-top: 50px;
+  /* text-align: justify; */
+}
+
+.terms_of_use_page .background_sheet {
+  height: 100%;
+  width: 100%;
+  background-color: #f3f3f3;
+}
+
+.terms_of_use_page .text_container {
+  padding: 50px 40px;
+}
+
+.terms_of_use_page h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.terms_of_use_page p {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+}
+
+@media (max-width: 599px) {
+  .terms_of_use_page .text_container {
+    padding: 25px 10px;
+  }
+}
