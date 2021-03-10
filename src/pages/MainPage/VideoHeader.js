@@ -16,38 +16,68 @@ class VideoHeader extends Component {
 
   cancelVideo = () => {
     setTimeout(() => {
-      this.setState({ classVid1: "off90" });
+      this.setState({ classVid1: "off95" });
       setTimeout(() => {
-        this.setState({ classVid1: "off80" });
+        this.setState({ classVid1: "off90" });
         setTimeout(() => {
-          this.setState({ classVid1: "off70" });
+          this.setState({ classVid1: "off85" });
           setTimeout(() => {
-            this.setState({ classVid1: "off60" });
+            this.setState({ classVid1: "off80" });
             setTimeout(() => {
-              this.setState({ classVid1: "off50" });
+              this.setState({ classVid1: "off75" });
               setTimeout(() => {
-                this.setState({ classVid1: "off40" });
+                this.setState({ classVid1: "off70" });
                 setTimeout(() => {
-                  this.setState({ classVid1: "off30" });
+                  this.setState({ classVid1: "off65" });
                   setTimeout(() => {
-                    this.setState({ classVid1: "off20" });
+                    this.setState({ classVid1: "off60" });
                     setTimeout(() => {
-                      this.setState({ classVid1: "off10" });
+                      this.setState({ classVid1: "off55" });
                       setTimeout(() => {
-                        this.setState({ classVid1: "off00" });
+                        this.setState({ classVid1: "off50" });
                         setTimeout(() => {
-                          this.removeVideo();
-                        }, 400);
-                      }, 300);
-                    }, 300);
-                  }, 200);
-                }, 200);
-              }, 200);
-            }, 200);
-          }, 200);
-        }, 200);
-      }, 200);
-    }, 200);
+                          this.setState({ classVid1: "off45" });
+                          setTimeout(() => {
+                            this.setState({ classVid1: "off40" });
+                            setTimeout(() => {
+                              this.setState({ classVid1: "off35" });
+                              setTimeout(() => {
+                                this.setState({ classVid1: "off30" });
+                                setTimeout(() => {
+                                  this.setState({ classVid1: "off25" });
+                                  setTimeout(() => {
+                                    this.setState({ classVid1: "off20" });
+                                    setTimeout(() => {
+                                      this.setState({ classVid1: "off15" });
+                                      setTimeout(() => {
+                                        this.setState({ classVid1: "off10" });
+                                        setTimeout(() => {
+                                          this.setState({ classVid1: "off05" });
+                                          setTimeout(() => {
+                                            this.setState({ classVid1: "off00" });
+                                            setTimeout(() => {
+                                              this.removeVideo();
+                                            }, 100);
+                                          }, 100);
+                                        }, 100);
+                                      }, 100);
+                                    }, 100);
+                                  }, 100);
+                                }, 100);
+                              }, 100);
+                            }, 100);
+                          }, 100);
+                        }, 100);
+                      }, 100);
+                    }, 100);
+                  }, 100);
+                }, 100);
+              }, 100);
+            }, 100);
+          }, 100);
+        }, 100);
+      }, 100);
+    }, 100);
   };
 
   removeVideo = () => {

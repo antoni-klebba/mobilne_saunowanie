@@ -2,40 +2,80 @@
   opacity: 1;
 }
 
+.video_container .off95 {
+  opacity: 0.95;
+}
+
 .video_container .off90 {
   opacity: 0.9;
+}
+
+.video_container .off85 {
+  opacity: 0.85;
 }
 
 .video_container .off80 {
   opacity: 0.8;
 }
 
+.video_container .off75 {
+  opacity: 0.75;
+}
+
 .video_container .off70 {
   opacity: 0.7;
+}
+
+.video_container .off65 {
+  opacity: 0.65;
 }
 
 .video_container .off60 {
   opacity: 0.6;
 }
 
+.video_container .off55 {
+  opacity: 0.55;
+}
+
 .video_container .off50 {
   opacity: 0.5;
+}
+
+.video_container .off45 {
+  opacity: 0.45;
 }
 
 .video_container .off40 {
   opacity: 0.4;
 }
 
+.video_container .off35 {
+  opacity: 0.35;
+}
+
 .video_container .off30 {
   opacity: 0.3;
+}
+
+.video_container .off25 {
+  opacity: 0.25;
 }
 
 .video_container .off20 {
   opacity: 0.2;
 }
 
+.video_container .off15 {
+  opacity: 0.15;
+}
+
 .video_container .off10 {
   opacity: 0.1;
+}
+
+.video_container .off05 {
+  opacity: 0.05;
 }
 
 .video_container .off00 {
