@@ -41,8 +41,11 @@ class MenuItem extends Component {
           onMouseLeave={() => {
             this.handleHover();
           }}
-          onClick={this.props.onClick}>
-          <a className="link_reset" href={this.props.path}>
+          onClick={() => this.props.scroll()}>
+          <a
+            className="link_reset"
+            // href={this.props.path}
+          >
             {this.props.text}
           </a>
         </div>

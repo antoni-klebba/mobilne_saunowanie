@@ -4,9 +4,7 @@ import MenuItem from "./MenuItem";
 import logo from "../../../images/logos/logo1.png";
 
 const LargeWidthNav = (props) => {
-  const menu = props.menuList.map((item, index) => (
-    <MenuItem key={index} path={item.path} text={item.text} />
-  ));
+  const menu = props.menuList.map((item, index) => <MenuItem key={index} {...item} />);
 
   return (
     <div className="lar_nav_bar">

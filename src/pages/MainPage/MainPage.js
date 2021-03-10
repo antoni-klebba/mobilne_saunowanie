@@ -6,7 +6,7 @@ import About from "./About";
 import Offer from "./Offer";
 import Gallery from "./Gallery";
 
-const MainPage = () => {
+const MainPage = (props) => {
   return (
     <>
       <section className="video_header">
@@ -15,16 +15,16 @@ const MainPage = () => {
       <header className="header">
         <Header />
       </header>
-      <div id="about1" className="separating_line"></div>
-      <section id="about" className="about">
+      <div ref={props.toAbout} className="separating_line"></div>
+      <section className="about">
         <About />
       </section>
-      <div id="offer1" className="separating_line"></div>
-      <main id="offer" className="offer">
+      <div ref={props.toOffer} className="separating_line"></div>
+      <main className="offer">
         <Offer />
       </main>
-      <div id="gallery1" className="separating_line"></div>
-      <section id="gallery" className="gallery">
+      <div ref={props.toGallery} className="separating_line"></div>
+      <section className="gallery">
         <Gallery />
       </section>
     </>

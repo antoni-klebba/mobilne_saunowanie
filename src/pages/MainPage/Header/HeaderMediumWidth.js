@@ -41,7 +41,7 @@ const HeaderMediumWidth = () => {
           showFullscreenButton={false}
           showPlayButton={false}
           autoPlay={true}
-          slideDuration={400}
+          slideDuration={600}
           slideInterval={changeImgInterval}
           flickThreshold={0.1}
           items={images}

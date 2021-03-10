@@ -1,9 +1,13 @@
 import React from "react";
 
-const MenuItem = ({ path, text }) => {
+const MenuItem = ({ path, text, scroll }) => {
   return (
     <div className="element">
-      <a className="link_reset" href={path}>
+      <a
+        onClick={() => scroll()}
+        className="link_reset"
+        // href={path}
+      >
         {text}
       </a>
     </div>

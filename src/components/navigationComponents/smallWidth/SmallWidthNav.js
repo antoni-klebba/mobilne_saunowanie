@@ -21,13 +21,6 @@ class SmallWidthNav extends Component {
   }
 
   render() {
-    const styles = {
-      container: {
-        zIndex: "3",
-        width: "100%",
-      },
-    };
-
     const menuItems = this.props.menuList.map((item, index) => {
       return (
         <MenuItem
@@ -44,7 +37,7 @@ class SmallWidthNav extends Component {
 
     return (
       <>
-        <div className="small_nav small_width" style={styles.container}>
+        <div className="small_nav small_width">
           <MenuButton
             open={this.state.menuOpen}
             onClick={() => this.handleMenuClick()}

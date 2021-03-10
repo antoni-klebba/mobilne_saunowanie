@@ -57,7 +57,7 @@ nav .menu {
   opacity: 0.95;
   color: #222;
   transition: 0.3s ease;
-  z-index: 2;
+  z-index: 3;
 }
 
 nav .menu.true {
@@ -75,6 +75,7 @@ nav .menu_list {
 
 .small_width {
   display: inherit;
+  z-index: 4;
 }
 
 /* Media Query */

@@ -28,6 +28,7 @@ h6 {
 .link_reset {
   text-decoration: none;
   color: #222;
+  cursor: pointer;
 }
 
 .link_reset:active {

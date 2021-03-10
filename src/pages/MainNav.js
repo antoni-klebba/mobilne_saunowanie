@@ -10,23 +10,28 @@ class MainNav extends Component {
     menuList: [
       {
         text: "O nas",
-        path: "#about1",
+        path: "#o-nas",
+        scroll: this.props.scrollToAbout,
       },
       {
         text: "Oferta",
-        path: "#offer1",
+        path: "#oferta",
+        scroll: this.props.scrollToOffer,
       },
       {
         text: "Galeria",
-        path: "#gallery1",
+        path: "#galeria",
+        scroll: this.props.scrollToGallery,
       },
       {
         text: "Kontakt",
-        path: "#footer",
+        path: "#stopka",
+        scroll: this.props.scrollToFooter,
       },
     ],
   };
   render() {
+    // console.log(this.props.scrollToFooter);
     return (
       <Media
         queries={{

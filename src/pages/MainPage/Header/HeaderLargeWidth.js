@@ -35,17 +35,18 @@ const HeaderLargeWidth = () => {
     <div className="header_container">
       <div className="header_gallery">
         <ImageGallery
-          lazyLoad={true}
+          lazyLoad={false}
           showNav={false}
           showThumbnails={false}
           showFullscreenButton={false}
           showPlayButton={false}
           autoPlay={true}
-          slideDuration={400}
+          slideDuration={800}
           slideInterval={changeImgInterval}
           flickThreshold={0.1}
           items={images}
           showBullets={true}
+          useWindowKeyDown={true}
         />
       </div>
 

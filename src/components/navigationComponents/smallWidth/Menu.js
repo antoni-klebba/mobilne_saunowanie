@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import MenuItem from "./MenuItem";
 
 class Menu extends Component {
   state = {
@@ -10,11 +11,12 @@ class Menu extends Component {
       return { open: nextProps.open };
     } else return null;
   }
+  menu = this.props.menuList.map((item, index) => <MenuItem key={index} {...item} />);
 
   render() {
     return (
       <div className={`menu ${this.state.open} small_width`}>
-        {this.state.open ? <div className="menu_list">{this.props.children}</div> : null}
+        {this.state.open ? <div className="menu_list">{this.menu}</div> : null}
       </div>
     );
   }
