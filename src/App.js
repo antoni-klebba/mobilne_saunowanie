@@ -18,19 +18,19 @@ class App extends Component {
   toFooter = createRef();
 
   scrollToAbout = () => {
-    this.toAbout.current.scrollIntoView();
+    this.toAbout.current.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   scrollToOffer = () => {
-    this.toOffer.current.scrollIntoView();
+    this.toOffer.current.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   scrollToGallery = () => {
-    this.toGallery.current.scrollIntoView();
+    this.toGallery.current.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   scrollToFooter = () => {
-    this.toFooter.current.scrollIntoView();
+    this.toFooter.current.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   render() {

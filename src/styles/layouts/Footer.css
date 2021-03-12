@@ -85,7 +85,7 @@
 .bottom_footer .container {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   height: 30px;
   width: 90%;
   padding-bottom: 3px;
