@@ -12,19 +12,19 @@ const Offer = () => {
           <p>
             Dowóz sauny jest darmowy do 10km od Swarzewa. Każdy dodatkowy kilometr kosztuje 5zł.
           </p>
-          <h4>Opcja 1</h4>
+          <h4>Saunowanie na własnym podwórku</h4>
           <p>
-            Sauna przyjeżdża rozpalona lub nie na Państwa teren prywatny i jest odbierana następnego
-            dnia.
+            Sauna przyjeżdża na Państwa teren prywatny. Rozpalamy ją i zostawiamy do Państwa
+            dyspozycji.
           </p>
-          <h5>Koszt: 300zł/doba</h5>
-          <h4>Opcja 2</h4>
+          <h5>Koszt: 300zł / 6 godzin</h5>
+          <h4>Saunowanie przy plaży</h4>
           <p>
             Rozpalona sauna stoi na parkinku przy plaży o umówionej porze. W tym wariancie palenisko
-            jest doglądane przez nas, a Państwo mogą oddać się kompielom i saunowaniu bez myślenia o
+            jest doglądane przez nas, a Państwo mogą oddać się kąpielom i saunowaniu bez myślenia o
             niej.
           </p>
-          <h5>Koszt: 300zł/3 godziny saunowania</h5>
+          <h5>Koszt: 300zł / 3 godziny</h5>
           <p>Aby zareserwować saunę prosimy o telefon pod numer: </p>
           <p className="offer_phone_number">
             <strong>

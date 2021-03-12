@@ -11,6 +11,17 @@ const About = () => {
             Mobilna Sauna powstała z pasji do saunowania na świeżym powietrzu w gronie znajomych
             oraz z chęcią dzielenia jej z innymi. Naszym celem jest umożliwienie saunowania na
             własnym podwórku lub w innych atrakcyjnych miejscach każdemu kto ma na to ochotę.
+            <br />
+            <span className="p_gabinet">
+              Mobilna Sauna jest uzupełnieniem oferty{" "}
+              <a
+                className="link_reset link_gabinet"
+                target="_blank"
+                href="https://www.facebook.com/gabinetmorski">
+                Gabinetu Morskiego
+              </a>
+              , do którego również serdecznie zapraszamy.
+            </span>
           </p>
         </div>
       </div>

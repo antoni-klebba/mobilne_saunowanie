@@ -1,13 +1,18 @@
 import React from "react";
 import "../styles/pages/TermsOfUse.css";
 
+import terms_of_use_img from "../images/terms_of_use/terms_of_use_img.jpg";
+
 const TermsOfUse = () => {
   return (
     <div className="terms_of_use_page">
       <div className="container">
         <div className="background_sheet">
           <div className="text_container">
-            <h3>Regulamin</h3>
+            <div className="terms_img">
+              <img src={terms_of_use_img} alt="" />
+            </div>
+            {/* <h3>Regulamin</h3>
             <p>
               &#167;1. Każda osoba korzystająca z sauny mobilnej jest zobowiązana do zapoznania się
               z niniejszym regulaminem.
@@ -44,6 +49,30 @@ const TermsOfUse = () => {
               <br />
               &#167;10. Osoba wynajmująca zobowiązuje się do oddania sauny w stanie niepogorszonym.
             </p>
+            <br />
+            <br />
+            <h3>Umowa najmu sauny mobilnej</h3>
+            <br />
+            <br />
+            <p>
+              Umowa zawarta w dniu . . . . . . . . . . . pomiędzy wynajmującym: Bartoszem Klebba
+              84-100 Swarzewo ul. Ogrodowa 7, a najemcą:
+            </p>
+            <br />
+            <p>
+              Imię i nazwisko . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+              . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+            </p>
+            <br />
+            <p>
+              PESEL . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Telefon: . . . .
+              . . . . . . . . . . . . . . . . . . . . . . . . . . . .{" "}
+            </p>
+            <br />{" "}
+            <p>
+              Adres zameldowania/zamieszkania . . . . . . . . . . . . . . . . . . . . . . . . . . .
+              . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+            </p> */}
           </div>
         </div>
       </div>
