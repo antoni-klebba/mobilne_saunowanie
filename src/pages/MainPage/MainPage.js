@@ -9,9 +9,9 @@ import Gallery from "./Gallery";
 const MainPage = (props) => {
   return (
     <>
-      <section className="video_header">
+      {/* <section className="video_header">
         <VideoHeader />
-      </section>
+      </section> */}
       <header className="header">
         <Header />
       </header>

@@ -46,13 +46,13 @@ class Gallery extends Component {
     };
 
     this.images = [
-      {
-        thumbnail: gallery_video_thumbnail,
-        original: gallery_video,
-        embedUrl: "https://www.youtube.com/embed/bzCMAw5etOY?autoplay=1&showinfo=0",
-        description: "",
-        renderItem: this._renderVideo.bind(this),
-      },
+      // {
+      //   thumbnail: gallery_video_thumbnail,
+      //   original: gallery_video,
+      //   embedUrl: "https://www.youtube.com/embed/bzCMAw5etOY?autoplay=1&showinfo=0",
+      //   description: "",
+      //   renderItem: this._renderVideo.bind(this),
+      // },
       {
         original: gallery1,
         thumbnail: thumbnail_gallery1,

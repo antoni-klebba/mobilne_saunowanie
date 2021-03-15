@@ -21,18 +21,8 @@ class SmallWidthNav extends Component {
   }
 
   render() {
-    const menuItems = this.props.menuList.map((item, index) => {
-      return (
-        <MenuItem
-          key={index}
-          path={item.path}
-          text={item.text}
-          delay={`${index * 0.15}s`}
-          onClick={() => {
-            this.handleLinkClick();
-          }}
-        />
-      );
+    const menuItems = this.props.menuList.map((index) => {
+      return <MenuItem key={index} />;
     });
 
     return (

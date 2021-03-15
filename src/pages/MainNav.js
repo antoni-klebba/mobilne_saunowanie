@@ -11,27 +11,30 @@ class MainNav extends Component {
       {
         text: "O nas",
         path: "#o-nas",
+        delay: "0s",
         scroll: this.props.scrollToAbout,
       },
       {
         text: "Oferta",
         path: "#oferta",
+        delay: "0.15s",
         scroll: this.props.scrollToOffer,
       },
       {
         text: "Galeria",
         path: "#galeria",
+        delay: "0.30s",
         scroll: this.props.scrollToGallery,
       },
       {
         text: "Kontakt",
         path: "#stopka",
+        delay: "0.45s",
         scroll: this.props.scrollToFooter,
       },
     ],
   };
   render() {
-    // console.log(this.props.scrollToFooter);
     return (
       <Media
         queries={{

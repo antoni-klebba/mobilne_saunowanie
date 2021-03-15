@@ -30,14 +30,19 @@ h6 {
   text-decoration: none;
   color: #222;
   cursor: pointer;
+  border: none;
 }
 
 .link_reset:active {
   outline: none;
+  box-shadow: none;
+  border: none;
 }
 
 .link_reset:focus {
   outline: none;
+  box-shadow: none;
+  border: none;
 }
 
 .about,

@@ -39,8 +39,31 @@
   }
 }
 
-.terms_of_use_page img {
-  height: 100%;
+.terms_of_use_page .pdf_download {
   width: 100%;
-  object-fit: fill;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.terms_of_use_page .pdf_download .button_container {
+  background: var(--main-gradient-background1);
+}
+
+.terms_of_use_page .pdf_download button {
+  padding: 12px 13px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  border: 1px solid #222;
+  background: linear-gradient(to right, #fff, #fff 50%, #222 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 350ms ease;
+}
+
+.terms_of_use_page .pdf_download button:hover {
+  background-position: 0 100%;
 }
