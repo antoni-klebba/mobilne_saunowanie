@@ -1,6 +1,6 @@
 {
-  "name": "mobilna_sauna",
-  "homepage": "https://homoviator153.github.io/mobilne_saunowanie",
+  "name": "mobilnasauna",
+  "homepage": "https://mobilnesaunowanie.pl",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -46,11 +46,13 @@
   margin-top: 35px;
 }
 
-.terms_of_use_page .pdf_download .button_container {
+.terms_of_use_page .pdf_download a {
   background: var(--main-gradient-background1);
 }
 
 .terms_of_use_page .pdf_download button {
+  width: 100%;
+  height: 100%;
   padding: 12px 13px;
   font-family: "Lato", sans-serif;
   font-size: 16px;
@@ -65,5 +67,5 @@
 }
 
 .terms_of_use_page .pdf_download button:hover {
-  background-position: 0 100%;
+  background-position: 0.1% 100%;
 }

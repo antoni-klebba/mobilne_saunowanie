@@ -33,6 +33,7 @@
 
 .top_contact_bar .phone_icon,
 .top_contact_bar .fb_icon,
+.top_contact_bar .inst_icon,
 .top_contact_bar .map_icon {
   margin-right: 15px;
   font-size: 28px;
@@ -50,7 +51,8 @@
   }
   .top_contact_bar .phone_icon,
   .top_contact_bar .fb_icon,
-  .top_contact_bar .map_icon {
+  .top_contact_bar .map_icon,
+  .top_contact_bar .inst_icon {
     margin-right: 17px;
   }
 }
@@ -66,7 +68,8 @@
 
   .top_contact_bar .phone_icon,
   .top_contact_bar .fb_icon,
-  .top_contact_bar .map_icon {
+  .top_contact_bar .map_icon,
+  .top_contact_bar .inst_icon {
     font-size: 34px;
     margin-right: 20px;
   }

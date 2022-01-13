@@ -16,6 +16,7 @@ const HeaderLargeWidth = () => {
     {
       original: horizontal_header1,
       thumbnail: null,
+      alt: "Mobilne saunowanie",
     },
     {
       original: horizontal_header2,

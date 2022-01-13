@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/pages/TermsOfUse.css";
 
-import terms_of_use_img from "../images/terms_of_use/terms_of_use_img.jpg";
+import umowa from "../wzór_umowy_najmu_sauny_mobilnej.pdf";
 
 const TermsOfUse = () => {
   return (
@@ -47,9 +47,12 @@ const TermsOfUse = () => {
               &#167;10. Osoba wynajmująca zobowiązuje się do oddania sauny w stanie niepogorszonym.
             </p>
             <div className="pdf_download">
-              <div className="button_container">
+              <a
+                className="button_container link_reset"
+                href={umowa}
+                download="wzór_umowy_najmu_sauny_mobilnej.pdf">
                 <button className="link_reset">Pobierz umowę wypożyczenia (pdf)</button>
-              </div>
+              </a>
             </div>
           </div>
         </div>

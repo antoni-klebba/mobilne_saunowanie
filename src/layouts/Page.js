@@ -17,8 +17,8 @@ const Page = (props) => {
             <MainPage toAbout={props.toAbout} toOffer={props.toOffer} toGallery={props.toGallery} />
           )}
         />
-        <Route path="/regulamin" component={TermsOfUse} />
-        <Route path="" component={ErrorPage} />
+        <Route path="/regulamin" exact component={TermsOfUse} />
+        <Route component={ErrorPage} />
       </Switch>
     </>
   );

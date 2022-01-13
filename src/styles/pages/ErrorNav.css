@@ -8,14 +8,18 @@
 }
 
 .error_nav_bar .container {
+  position: relative;
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .error_nav_bar .container .back_arrow {
-  margin-left: 35px;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
   font-size: 24px;
 }
 
@@ -27,7 +31,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: -35px;
 }
 
 .error_nav_bar .logo img {

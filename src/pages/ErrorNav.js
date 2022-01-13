@@ -21,7 +21,6 @@ const ErrorNavigation = () => {
             <img src={logo1} alt="Mobilna Sauna" />
           </Link>
         </div>
-        <div className="empty_container"></div>
       </div>
     </div>
   );

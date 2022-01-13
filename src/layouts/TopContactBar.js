@@ -3,7 +3,7 @@ import "../styles/layouts/TopContactBar.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkedAlt, faPhoneSquareAlt } from "@fortawesome/free-solid-svg-icons";
-import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookSquare, faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
 
 const TopContactBar = () => {
   return (
@@ -24,6 +24,12 @@ const TopContactBar = () => {
           target="_blank"
           href="https://www.facebook.com/gabinetmorski">
           <FontAwesomeIcon icon={faFacebookSquare} />
+        </a>
+        <a
+          className="inst_icon link_reset"
+          target="_blank"
+          href="https://www.instagram.com/mobilne_saunowanie/">
+          <FontAwesomeIcon icon={faInstagramSquare} />
         </a>
         <a
           className="map_icon link_reset"

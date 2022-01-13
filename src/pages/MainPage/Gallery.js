@@ -20,8 +20,8 @@ import thumbnail_gallery5 from "../../images/gallery/thumbnail_gallery5.jpg";
 import thumbnail_gallery_map from "../../images/gallery/thumbnail_gallery_map.jpg";
 
 // Video image and thumbnail
-import gallery_video from "../../videos/gallery_video.jpg";
-import gallery_video_thumbnail from "../../videos/gallery_video_thumbnail.jpg";
+// import gallery_video from "../../videos/gallery_video.jpg";
+// import gallery_video_thumbnail from "../../videos/gallery_video_thumbnail.jpg";
 
 class Gallery extends Component {
   constructor() {
@@ -56,6 +56,7 @@ class Gallery extends Component {
       {
         original: gallery1,
         thumbnail: thumbnail_gallery1,
+        alt: "asdasd",
       },
       {
         original: gallery2,

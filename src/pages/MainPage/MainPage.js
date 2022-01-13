@@ -1,6 +1,6 @@
 import React from "react";
 
-import VideoHeader from "./VideoHeader";
+// import VideoHeader from "./VideoHeader";
 import Header from "./Header/Header";
 import About from "./About";
 import Offer from "./Offer";
