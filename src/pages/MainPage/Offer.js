@@ -9,23 +9,20 @@ const Offer = () => {
           <h3>Oferta</h3>
           <p>Sauna jest przeznaczona dla maksymalnie 10 osób.</p>
           <p>Dodatkowo wraz z sauną oferujemy w cenie opał drzewny.</p>
-          <p>
-            Dowóz sauny jest darmowy do Władysławowa, Pucka, Swarzewa i okolic w promieniu do 10km
-            od Swarzewa. Każdy dodatkowy kilometr kosztuje 5zł.
-          </p>
+          <p>Dowóz sauny jest płatny - 5zł za kilometr.</p>
           <h4>Saunowanie na własnym podwórku</h4>
           <p>
             Sauna przyjeżdża na Państwa teren prywatny. Rozpalamy ją i zostawiamy do Państwa
             dyspozycji.
           </p>
-          <h5>Koszt: 300zł / 6 godzin</h5>
+          <h5>Koszt: 300zł / 3 godziny</h5>
           <h4>Saunowanie przy plaży</h4>
           <p>
             Rozpalona sauna stoi na parkingu przy plaży o umówionej porze. W tym wariancie palenisko
             jest doglądane przez nas, a Państwo mogą oddać się kąpielom i relaksie w saunie bez
             zaprzątania sobie głowy podtrzymywaniem ognia.
           </p>
-          <h5>Koszt: 300zł / 3 godziny</h5>
+          <h5>Koszt: 300zł / 2 godziny</h5>
           <p>Aby zarezerwować saunę prosimy o telefon pod numer: </p>
           <p className="offer_phone_number">
             <strong>

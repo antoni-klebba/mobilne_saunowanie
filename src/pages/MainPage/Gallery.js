@@ -9,7 +9,6 @@ import gallery2 from "../../images/gallery/gallery2.jpg";
 import gallery3 from "../../images/gallery/gallery3.jpg";
 import gallery4 from "../../images/gallery/gallery4.jpg";
 import gallery5 from "../../images/gallery/gallery5.jpg";
-import gallery_map2 from "../../images/gallery/gallery_map2.jpg";
 
 // Thumbnails
 import thumbnail_gallery1 from "../../images/gallery/thumbnail_gallery1.jpg";
@@ -17,7 +16,6 @@ import thumbnail_gallery2 from "../../images/gallery/thumbnail_gallery2.jpg";
 import thumbnail_gallery3 from "../../images/gallery/thumbnail_gallery3.jpg";
 import thumbnail_gallery4 from "../../images/gallery/thumbnail_gallery4.jpg";
 import thumbnail_gallery5 from "../../images/gallery/thumbnail_gallery5.jpg";
-import thumbnail_gallery_map from "../../images/gallery/thumbnail_gallery_map.jpg";
 
 // Video image and thumbnail
 // import gallery_video from "../../videos/gallery_video.jpg";
@@ -73,10 +71,6 @@ class Gallery extends Component {
       {
         original: gallery5,
         thumbnail: thumbnail_gallery5,
-      },
-      {
-        original: gallery_map2,
-        thumbnail: thumbnail_gallery_map,
       },
     ];
   }
